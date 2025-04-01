@@ -1,9 +1,9 @@
 
 from rest_framework.serializers import ModelSerializer
 
-from core.models import categoria
+from core.models import Categoria
 
-class CategoriaSerialaizer(ModelSerializer):
+class CategoriaSerializer(ModelSerializer):
     class Meta:
-        model = categoria 
+        model = Categoria 
         fields = "__all__"
